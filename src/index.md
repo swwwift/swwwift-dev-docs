@@ -2,13 +2,13 @@
 home: true
 tagline: Swwwift - Getting Started
 actionText: Quick Start →
-actionLink: /
+actionLink: /themes/
 features:
-- title: Learn to use Blocks
-  details: Learn how to use the block editor 
-- title: Customise Your Site
-  details: Create a unique style or select from our array of themes to get you started.
+- title: Learn to add blocks
+  details: Learn how to add new custom blocks 
+- title: Theme editing
+  details: Create unique themes.
 - title: Templating
-  details: Learn how to change your site templates
-footer: Made by Swwwift with ❤️
+  details: Learn how to change site templates
+footer: Swwwift Devs
 ---

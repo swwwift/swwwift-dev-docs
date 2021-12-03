@@ -49,7 +49,9 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'starting-a-theme',
+            'theme-customiser',
+            'saving-themes',
           ]
         }
       ],

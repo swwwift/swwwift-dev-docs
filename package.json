@@ -1,0 +1,20 @@
+{
+  "name": "swwwift-docs",
+  "version": "0.0.1",
+  "description": "Swwwift - Getting Started",
+  "homepage": "https://docs.swwwift.io/",
+  "main": "index.js",
+  "authors": {
+    "name": "Steve North",
+    "email": "tex0gen@gmail.com"
+  },
+  "repository": "/swwwift-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

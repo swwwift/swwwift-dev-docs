@@ -52,6 +52,8 @@ module.exports = {
             'starting-a-theme',
             'theme-customiser',
             'saving-themes',
+            'editing-templates',
+            'exporting-your-theme',
           ]
         }
       ],

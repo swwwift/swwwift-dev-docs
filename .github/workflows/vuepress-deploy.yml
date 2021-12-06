@@ -12,6 +12,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TARGET_BRANCH: gh-pages
+        PAGES_CNAME: devdocs.swwwift.io
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: src/.vuepress/dist/
-        PAGES_CNAME: devdocs.swwwift.io

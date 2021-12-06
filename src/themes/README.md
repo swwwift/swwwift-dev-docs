@@ -11,7 +11,8 @@ Each directory should have the following structure when completed:
   /content
     import.xml
   /block-patterns
-    [list_of_patterns.json]
+    /{block_category}
+      [list_of_patterns.json]
 ```
 
 Your theme should be developed in the same order as is followed in this documentation to accurately achieve the model seen above.

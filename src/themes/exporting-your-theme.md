@@ -6,7 +6,7 @@ When you have built your page templates, template parts, completed your page des
 
 First thing to do after completing your theme is to use the WPCLI to export your theme content which will contain all the above with the exception to styling.
 
-Simply run `wp export` and the .xml file will be placed in the directory the CLI command is run from.
+Simply run `wp swwwift export` and the .xml file will be placed in the directory the CLI command is run from.
 
 Copy this export file into `/wp-content/uploads/swft_{theme_name}_swwwift/content/import.xml`.
 

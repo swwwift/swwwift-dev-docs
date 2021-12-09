@@ -14,9 +14,7 @@ define( 'WP_HOME', 'http://example.com' );
 define( 'WP_SITEURL', 'http://example.com' );
 ```
 Step 8: Login and enable **ALL** plugins
+Step 9: In `Settings > Permalinks`, set to **Post name**
 
 That's it, you're ready to go.
 
-::: tip
-DO NOT upload your own images. Please use the "unsplash" tab. This coupled with the S3 offload media plugin will ensure media loads properly on client sites when they have been spun up.
-:::

@@ -14,7 +14,8 @@ define( 'WP_HOME', 'http://example.com' );
 define( 'WP_SITEURL', 'http://example.com' );
 ```
 Step 8: Login and enable **ALL** plugins
-Step 9: In `Settings > Permalinks`, set to **Post name**
+Step 9: Run `wp s3-uploads enable` in your terminal
+Step 10: In `Settings > Permalinks`, set to **Post name**
 
 That's it, you're ready to go.
 

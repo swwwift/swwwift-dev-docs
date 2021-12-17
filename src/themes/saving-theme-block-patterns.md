@@ -5,5 +5,3 @@ This functionality is not yet fully tested. Though the following *should* work, 
 :::
 
 Themes can have their own block patterns. These will live in `/wp-content/uploads/swft_{theme_name}_swwwift/block-patterns/{category}`. Just as they do in the theme itself.
-
-... More soon ...

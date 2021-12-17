@@ -54,6 +54,7 @@ module.exports = {
             'saving-themes',
             'editing-templates',
             'exporting-your-theme',
+            'helper-classes',
           ]
         }
       ],

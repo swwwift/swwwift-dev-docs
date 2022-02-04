@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Editing Page Templates | Swwwift Dev Docs</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="Swwwift - Getting Started">
+    <meta name="theme-color" content="#FF5E62">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.9efbbd4d.css" as="style"><link rel="preload" href="/assets/js/app.ad851bb8.js" as="script"><link rel="preload" href="/assets/js/2.9f7d206a.js" as="script"><link rel="preload" href="/assets/js/13.17d2442a.js" as="script"><link rel="prefetch" href="/assets/js/10.ee31d231.js"><link rel="prefetch" href="/assets/js/11.bed5fabe.js"><link rel="prefetch" href="/assets/js/12.aafee380.js"><link rel="prefetch" href="/assets/js/14.6e7ecf94.js"><link rel="prefetch" href="/assets/js/15.93935634.js"><link rel="prefetch" href="/assets/js/16.7777a3f8.js"><link rel="prefetch" href="/assets/js/17.e9f65ae7.js"><link rel="prefetch" href="/assets/js/18.0a2f5730.js"><link rel="prefetch" href="/assets/js/19.d64caf18.js"><link rel="prefetch" href="/assets/js/20.046a2fe7.js"><link rel="prefetch" href="/assets/js/3.d71e3132.js"><link rel="prefetch" href="/assets/js/4.e27a7f7a.js"><link rel="prefetch" href="/assets/js/5.e9f4081f.js"><link rel="prefetch" href="/assets/js/6.c7b54f12.js"><link rel="prefetch" href="/assets/js/7.81b258a5.js"><link rel="prefetch" href="/assets/js/8.ec70f3a4.js"><link rel="prefetch" href="/assets/js/9.effed064.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9efbbd4d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Swwwift Dev Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blocks/" class="nav-link">
+  Blocks
+</a></div><div class="nav-item"><a href="/themes/" class="nav-link router-link-active">
+  Themes
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blocks/" class="nav-link">
+  Blocks
+</a></div><div class="nav-item"><a href="/themes/" class="nav-link router-link-active">
+  Themes
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Themes</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/themes/" aria-current="page" class="sidebar-link">Swwwift Themes</a></li><li><a href="/themes/starting-a-theme.html" class="sidebar-link">Starting a New Theme</a></li><li><a href="/themes/theme-customiser.html" class="sidebar-link">Theme Customiser</a></li><li><a href="/themes/saving-themes.html" class="sidebar-link">Saving Themes</a></li><li><a href="/themes/editing-templates.html" aria-current="page" class="active sidebar-link">Editing Page Templates</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/themes/editing-templates.html#template-editor" class="sidebar-link">Template Editor</a></li><li class="sidebar-sub-header"><a href="/themes/editing-templates.html#template-parts" class="sidebar-link">Template Parts</a></li></ul></li><li><a href="/themes/saving-theme-block-patterns.html" class="sidebar-link">Theme Block Patterns</a></li><li><a href="/themes/exporting-your-theme.html" class="sidebar-link">Exporting Your Theme</a></li><li><a href="/themes/helper-classes.html" class="sidebar-link">Helper Classes</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="editing-page-templates"><a href="#editing-page-templates" class="header-anchor">#</a> Editing Page Templates</h1> <p>Page templates are traditionally developed with PHP in WordPress. This is now no longer the case with full site editing. You can now edit everything about the block templates using the Gutenberg editor and that is now each themes templates are to be developed.</p> <h2 id="template-editor"><a href="#template-editor" class="header-anchor">#</a> Template Editor</h2> <p>Go to <code>Appearance &gt; Editor</code> to find the template editor.</p> <p>In here, you'll see a sstandard template to get you started though these are very basic implementations.</p> <p>You should at the very top, see the header, a group below that and then finishing with a footer.</p> <p>In the group (below header, above footer), you can start to add blocks to develop your layout for the specified template.</p> <p>By default, all blocks are 100% width. Any content should ideally start with a &quot;columns&quot; block to give width and margin between columns.</p> <p>When you save a template you have been editing, you'll notice it wants to &quot;overwrite&quot; the specified template. This is fine to go ahead and do that. From there, you'll see in <code>Appearance &gt; Templates</code> that your newly edited template is now available as an editable post type. This will be exported in your content export later on and can be added to your theme folder in the uploads directory in:</p> <div class="language- extra-class"><pre class="language-text"><code>- swft_{theme_name}_swwwift
+-- content
+--- import.xml // Where this file is your content export
+</code></pre></div><p>Simply add all your default (single, archive, category, etc) layouts in this editor.</p> <h2 id="template-parts"><a href="#template-parts" class="header-anchor">#</a> Template Parts</h2> <p>The header and footer are known as template parts can can be edited separately. If you choose to edit one of these areas, what you do in the area you are editing becomes used on all pages that area is used. You can remove one or both from a template but generally it's not advised.</p> <p>When you do make a change to a template part, you'll see in <code>Appearance &gt; Template Parts</code> that your newly defined template part is available to edit as a custom post.</p> <p>This will once again be exported in your content export later on and can be added to your theme folder in the uploads directory as defined above.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/themes/saving-themes.html" class="prev">
+        Saving Themes
+      </a></span> <span class="next"><a href="/themes/saving-theme-block-patterns.html">
+        Theme Block Patterns
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ad851bb8.js" defer></script><script src="/assets/js/2.9f7d206a.js" defer></script><script src="/assets/js/13.17d2442a.js" defer></script>
+  </body>
+</html>

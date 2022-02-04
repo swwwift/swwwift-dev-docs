@@ -53,6 +53,7 @@ module.exports = {
             'theme-customiser',
             'saving-themes',
             'editing-templates',
+            'saving-theme-block-patterns',
             'exporting-your-theme',
             'helper-classes',
           ]
